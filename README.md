@@ -1,2 +1,8 @@
 # helpdesk
-A replication test of gerrit.
+
+# Submitting Patches
+Patches are always welcome! Please submit your patches via Foxmula Gerrit!
+
+Simply follow our guide on how to submit patches.
+
+To view the status of your and others' patches, visit Foxmula Gerrit Code Review.
