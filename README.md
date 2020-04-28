@@ -1,5 +1,5 @@
 # helpdesk
-
+Adding user!
 # Submitting Patches
 Patches are always welcome! Please submit your patches via Foxmula Gerrit!
 
@@ -18,7 +18,9 @@ Mahak Gupta - guptamahak29
 Mudrika Trivedi - mudrikatrivedi
 Aishwarya Sharma -7Aishwarya
 Garishma Virk - garishmavirk
+Muskan Aggarwal - muskan-aggrwl
 kunal modhave - kunalmodhve5454
 Nikhil Mishra - NikhilMishra1999
 Krishnapal - krishnapal-21
 Fritha Pahuja- Fritha10
+Komalpreet Kaur - komalshines
