@@ -1,5 +1,5 @@
 # helpdesk
-
+Add my name to developer list
 # Submitting Patches
 Patches are always welcome! Please submit your patches via Foxmula Gerrit!
 
@@ -14,3 +14,5 @@ Naman Bhatia - namanb99
 Sarwang Gupta - sarwanggupta
 Kaustubh Asthana - KaustubhAsthana
 Darshani Jain - dishu18
+Mahak Gupta - guptamahak29
+Pratyush Pandey - pratyushp4619
