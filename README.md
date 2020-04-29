@@ -1,5 +1,5 @@
 # helpdesk
-Add my name to developer list
+Add my name to developer list again
 # Submitting Patches
 Patches are always welcome! Please submit your patches via Foxmula Gerrit!
 
