@@ -9,9 +9,7 @@ function Login() {
       </h1>
       <Form />
       <div class="right">
-        <a href="">
-          <strong>I forgot my password</strong>
-        </a>
+        
       </div>
     </div>
   );
