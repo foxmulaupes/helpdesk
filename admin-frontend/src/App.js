@@ -12,14 +12,17 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import User from './User';
+import Ticket1 from './Ticket1';
 import ReactDOM from "react-dom";
+
+
 
 function Render(){
     return(
-    ReactDOM.render(<User />, document.getElementById("root"))
+    ReactDOM.render(<Ticket1 />, document.getElementById("root"))
     );
 }
+
 
 function Copyright() {
   return (
@@ -51,7 +54,6 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
-    
   },
 }));
 
@@ -66,7 +68,7 @@ export default function SignIn() {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Login In
+          Admin Login
         </Typography>
         <form className={classes.form} noValidate>
           <TextField
@@ -75,7 +77,7 @@ export default function SignIn() {
             required
             fullWidth
             id="email"
-            label="User ID"
+            label="Admin ID"
             name="email"
             autoComplete="email"
             autoFocus
