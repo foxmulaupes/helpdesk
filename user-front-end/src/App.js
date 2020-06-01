@@ -12,12 +12,12 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import Ticket from './Ticket';
+import User from './User';
 import ReactDOM from "react-dom";
 
 function Render(){
     return(
-    ReactDOM.render(<Ticket />, document.getElementById("root"))
+    ReactDOM.render(<User />, document.getElementById("root"))
     );
 }
 
@@ -51,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
+    
   },
 }));
 
