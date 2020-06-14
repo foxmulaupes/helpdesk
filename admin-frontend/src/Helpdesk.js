@@ -16,8 +16,9 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import Button from '@material-ui/core/Button';
 import Avatar from '@material-ui/core/Avatar';
-
 import EditTicket from './EditTicket';
+import AdminApproval from './AdminApproval';
+import ApprovalPortal from './ApprovalPortal';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 
@@ -111,11 +112,11 @@ export default function PrimarySearchAppBar() {
           </div>
 
           <EditTicket/>
-                
-
+              
+          <AdminApproval/>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop} >
-            
+          
           <Button
             type="submit"
            
