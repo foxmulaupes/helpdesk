@@ -14,6 +14,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Ticket1 from './Ticket1';
 import ReactDOM from "react-dom";
+import ApprovalPortal from "./ApprovalPortal";
 
 
 
@@ -22,7 +23,6 @@ function Render(){
     ReactDOM.render(<Ticket1 />, document.getElementById("root"))
     );
 }
-
 
 function Copyright() {
   return (
