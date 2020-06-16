@@ -50,50 +50,57 @@ const columns = [
   {
     id: 'tKT_Catg',
     label: 'TKT_Catg',
-    minWidth: 170,
+    minWidth: 140,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'desc',
     label: 'Description',
-    minWidth: 170,
+    minWidth: 140,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'app_id',
     label: 'App_id',
-    minWidth: 170,
+    minWidth: 140,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'issue_date',
     label: 'Issue_date',
-    minWidth: 170,
+    minWidth: 140,
     align: 'right',
     format: (value) => value.toFixed(2),
   },
   {
     id: 'resolve_Date',
     label: 'Resolve_Date',
-    minWidth: 170,
+    minWidth: 140,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'tKT_status',
     label: 'TKT_status',
-    minWidth: 170,
+    minWidth: 140,
+    align: 'right',
+    format: (value) => value.toLocaleString('en-US'),
+  },
+  {
+    id: 'approver_status',
+    label: 'Approver_status',
+    minWidth: 140,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
 ];
 
-function createData(name, TKT_id,TKT_Catg, App_id, Issue_date,Resolve_Date,TKT_status,Decription) {
+function createData(name, TKT_id,TKT_Catg, App_id, Issue_date,Resolve_Date,TKT_status,Decription,Approver_status) {
   
-  return {name, TKT_id,TKT_Catg, App_id, Issue_date,Resolve_Date,TKT_status,Decription };
+  return {name, TKT_id,TKT_Catg, App_id, Issue_date,Resolve_Date,TKT_status,Decription,Approver_status };
 }
 
 const rows = [
