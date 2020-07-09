@@ -30,7 +30,7 @@ import Fade from '@material-ui/core/Fade';
 import Menu from '@material-ui/core/Menu';
 import Container from '@material-ui/core/Container';
 import ReactDOM from "react-dom";
-import App from './App';
+import App from './components/App';
 import Ticket from './Ticket';
 
 function Render(){
@@ -50,57 +50,50 @@ const columns = [
   {
     id: 'tKT_Catg',
     label: 'TKT_Catg',
-    minWidth: 140,
+    minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'desc',
     label: 'Description',
-    minWidth: 140,
+    minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'app_id',
     label: 'App_id',
-    minWidth: 140,
+    minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'issue_date',
     label: 'Issue_date',
-    minWidth: 140,
+    minWidth: 170,
     align: 'right',
     format: (value) => value.toFixed(2),
   },
   {
     id: 'resolve_Date',
     label: 'Resolve_Date',
-    minWidth: 140,
+    minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
     id: 'tKT_status',
     label: 'TKT_status',
-    minWidth: 140,
-    align: 'right',
-    format: (value) => value.toLocaleString('en-US'),
-  },
-  {
-    id: 'approver_status',
-    label: 'Approver_status',
-    minWidth: 140,
+    minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
 ];
 
-function createData(name, TKT_id,TKT_Catg, App_id, Issue_date,Resolve_Date,TKT_status,Decription,Approver_status) {
+function createData(name, TKT_id,TKT_Catg, App_id, Issue_date,Resolve_Date,TKT_status,Decription) {
   
-  return {name, TKT_id,TKT_Catg, App_id, Issue_date,Resolve_Date,TKT_status,Decription,Approver_status };
+  return {name, TKT_id,TKT_Catg, App_id, Issue_date,Resolve_Date,TKT_status,Decription };
 }
 
 const rows = [
